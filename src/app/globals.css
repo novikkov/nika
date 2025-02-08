@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,800");
+/*@import url("https://fonts.googleapis.com/css2?family=Russo+One:100,600&display=swap&subset=cyrillic");*/
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap&subset=cyrillic");
+
+body,
+button,
+input {
+  font-family:
+    Montserrat,
+    Helvetica Neue,
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    sans-serif;
+}
+
+:root {
+  --primary-color: #de1417;
+  --light-primary-color: #c2252c;
+  --color: white;
+  --background: black;
+  --max-width: 1200px;
+  --sections-max-width: 1160px;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--background);
+  color: var(--color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  color: var(--color);
+}
+
+button {
+  outline: none;
+  border: none;
+  color: var(--color);
+  font-weight: 500;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+b {
+  color: var(--primary-color);
+  font-family: "Russo One", sans-serif;
+}

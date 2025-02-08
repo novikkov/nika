@@ -1,0 +1,36 @@
+.normal {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.checkbox {
+  appearance: none;
+  width: 1.15rem;
+  height: 1.15rem;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  transition: border 0.12s ease-in;
+  cursor: pointer;
+  position: relative;
+  text-align: left;
+}
+
+.checkbox:checked {
+  background: black;
+  border-color: white;
+}
+
+.checkbox::after {
+  content: "✓";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.12s ease-in;
+}
+
+.checkbox:checked::after {
+  opacity: 1;
+}

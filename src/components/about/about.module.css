@@ -1,0 +1,24 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: var(--max-width);
+  margin: 0 auto 4rem auto;
+  padding: 90px 0;
+}
+
+.mini {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.content {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+.content b {
+  color: var(--primary-color);
+}

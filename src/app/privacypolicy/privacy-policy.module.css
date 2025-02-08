@@ -1,0 +1,17 @@
+.container {
+  max-width: var(--max-width);
+  margin: 2rem auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: var(--color);
+}
+
+.content {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color);
+}

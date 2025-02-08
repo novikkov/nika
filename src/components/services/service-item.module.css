@@ -1,0 +1,30 @@
+.normal {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.image {
+  max-height: 340px;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.title {
+  color: var(--color);
+  font-size: 1.5rem;
+  line-height: 1.35;
+  font-weight: 600;
+  font-family: "Russo One", sans-serif;
+}
+
+.title b {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.text {
+  line-height: 1.5;
+  font-size: 1.125rem;
+  font-weight: 300;
+}

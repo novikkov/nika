@@ -1,0 +1,33 @@
+.item {
+  position: relative;
+}
+
+.number {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  position: absolute;
+  left: -0.4rem;
+  top: 0;
+  z-index: 1;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+  margin-top: 3.25rem;
+}
+
+.description {
+  font-size: 1rem;
+  font-weight: 300;
+  color: white;
+  margin-top: 1rem;
+}

@@ -1,0 +1,39 @@
+.title {
+  grid-column: 1 / -1;
+  margin-top: 2rem;
+  margin-bottom: 4.5rem;
+  font-family: "Russo One", sans-serif;
+  font-weight: 700;
+  color: var(--color);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--max-width);
+  margin: 90px auto;
+}
+
+.workflow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  position: relative;
+  list-style: none;
+  padding-left: 1.25rem;
+  margin: 0;
+}
+
+.workflow::before {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  right: 2rem;
+  height: 2px;
+  background: #e6e6e6;
+  border-radius: 9999px;
+  width: 75%;
+}

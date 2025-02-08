@@ -1,0 +1,42 @@
+.contacts {
+  background: white; /* in case map fails, just be white */
+  position: relative;
+  height: 600px; /* make it to support mobile and table */
+}
+
+.container {
+  display: flex;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.content {
+  position: absolute;
+  top: 120px;
+  max-width: 460px;
+  width: 100%;
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  padding: 3.75rem;
+  z-index: 3;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+  text-align-last: left;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.map {
+  position: absolute;
+  top: 0;
+}
